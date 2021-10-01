@@ -1,0 +1,62 @@
+body {
+    display: flex;
+    min-height: 60vh;
+    flex-direction: column;
+    color: red;
+    background: url("back.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+header .nav-wrapper {
+    height: 20vh;
+}
+
+header .nav-wrapper h1 {
+    font-size: 50px;
+    height: 11vh;
+    background-color: black;
+    /* background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(255, 0, 0), rgb(0, 0, 0)); */
+    color: White;
+}
+
+.brand-logo img {
+    height: 40px;
+    width: 40px;
+    box-shadow: 4px 4px 6px #000000;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+#chat-messages {
+    height: 50vh;
+    width: 100%;
+    overflow-y: scroll;
+}
+
+body::-webkit-scrollbar {
+    width: 15px;
+}
+
+body::-webkit-scrollbar-track {
+    background: #333;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: radial-gradient(circle at 30% 107%, red 0%, #df0e0ed2 5%, #df0e0e94 45%, #d62708c0 60%, #df0e0ed8 90%);
+    border-radius: 30px;
+    border: 3px solid #333;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
